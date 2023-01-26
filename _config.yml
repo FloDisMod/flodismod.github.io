@@ -34,24 +34,24 @@ plugins:
 - jekyll-include-cache
 - jemoji
 
-# 3. Gem settings
-paginate: 2 # jekyll-paginate > items per page
-paginate_path: blog/page:num # jekyll-paginate > blog page
-jekyll-mentions: https://twitter.com # jekyll-mentions > service used when @replying
-twitter:
-  username: DavidDarnes # jekyll-seo-tag > Owners twitter username
-author: DavidDarnes # jekyll-seo-tag > default author
-social: # jekyll-seo-tag > social overrides
-  name: David Darnes # jekyll-seo-tag > real name
-  links:  # jekyll-seo-tag > social aliases (sameAs)
-    - https://twitter.com/DavidDarnes
-    - https://www.facebook.com/daviddarnes
-    - https://www.linkedin.com/in/daviddarnes
-    - https://github.com/daviddarnes
-# markdown: CommonMark # Markdown parse settings, CommonMark performs slightly better an others in build time
-# commonmark:
-  # options: ["SMART", "FOOTNOTES"]
-  # extensions: ["strikethrough", "autolink", "table"]
+# # 3. Gem settings
+# paginate: 2 # jekyll-paginate > items per page
+# paginate_path: blog/page:num # jekyll-paginate > blog page
+# jekyll-mentions: https://twitter.com # jekyll-mentions > service used when @replying
+# twitter:
+#   username: DavidDarnes # jekyll-seo-tag > Owners twitter username
+author: FloDisMod team # jekyll-seo-tag > default author
+# social: # jekyll-seo-tag > social overrides
+#   name: David Darnes # jekyll-seo-tag > real name
+#   links:  # jekyll-seo-tag > social aliases (sameAs)
+#     - https://twitter.com/DavidDarnes
+#     - https://www.facebook.com/daviddarnes
+#     - https://www.linkedin.com/in/daviddarnes
+#     - https://github.com/daviddarnes
+# # markdown: CommonMark # Markdown parse settings, CommonMark performs slightly better an others in build time
+# # commonmark:
+#   # options: ["SMART", "FOOTNOTES"]
+#   # extensions: ["strikethrough", "autolink", "table"]
 
 # 4. Jekyll settings
 sass:
@@ -134,7 +134,8 @@ navigation_header:
 - title: Fork Alembic
   url: https://github.com/daviddarnes/alembic
 
-navigation_footer:
+# navigation_footer:
+footer:
 - title: A Framework for Flood and Disease Modeling
 
 
