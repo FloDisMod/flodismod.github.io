@@ -34,24 +34,24 @@ plugins:
 - jekyll-include-cache
 - jemoji
 
-# # 3. Gem settings
-# paginate: 2 # jekyll-paginate > items per page
-# paginate_path: blog/page:num # jekyll-paginate > blog page
-# jekyll-mentions: https://twitter.com # jekyll-mentions > service used when @replying
-# twitter:
-#   username: DavidDarnes # jekyll-seo-tag > Owners twitter username
+# 3. Gem settings
+paginate: 2 # jekyll-paginate > items per page
+paginate_path: blog/page:num # jekyll-paginate > blog page
+jekyll-mentions: https://twitter.com # jekyll-mentions > service used when @replying
+twitter:
+  username: DavidDarnes # jekyll-seo-tag > Owners twitter username
 author: FloDisMod team # jekyll-seo-tag > default author
-# social: # jekyll-seo-tag > social overrides
-#   name: David Darnes # jekyll-seo-tag > real name
-#   links:  # jekyll-seo-tag > social aliases (sameAs)
-#     - https://twitter.com/DavidDarnes
-#     - https://www.facebook.com/daviddarnes
-#     - https://www.linkedin.com/in/daviddarnes
-#     - https://github.com/daviddarnes
-# # markdown: CommonMark # Markdown parse settings, CommonMark performs slightly better an others in build time
-# # commonmark:
-#   # options: ["SMART", "FOOTNOTES"]
-#   # extensions: ["strikethrough", "autolink", "table"]
+social: # jekyll-seo-tag > social overrides
+  name: David Darnes # jekyll-seo-tag > real name
+  links:  # jekyll-seo-tag > social aliases (sameAs)
+    - https://twitter.com/DavidDarnes
+    - https://www.facebook.com/daviddarnes
+    - https://www.linkedin.com/in/daviddarnes
+    - https://github.com/daviddarnes
+# markdown: CommonMark # Markdown parse settings, CommonMark performs slightly better an others in build time
+# commonmark:
+  # options: ["SMART", "FOOTNOTES"]
+  # extensions: ["strikethrough", "autolink", "table"]
 
 # 4. Jekyll settings
 sass:
@@ -95,7 +95,7 @@ encoding: utf-8 # Make sure the encoding is right
 lang: en-GB # Set the site language
 title: "FloDisMod" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/logos/FloDisMod.png" # Site logo, also used in jekyll-seo-tag
-description: "Alembic is a starting point for Jekyll projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately" # Site description and default description, also used in jekyll-seo-tag
+description: "A Framework for Flood and Disease Modeling" # Site description and default description, also used in jekyll-seo-tag
 url: "https://alembic.darn.es" # Site url, also used in jekyll-seo-tag
 baseurl: ""
 repo: "https://github.com/daviddarnes/alembic"
@@ -123,33 +123,33 @@ favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
 navigation_header:
 - title: Home
   url: /
-- title: Elements
-  url: /elements/
-- title: Blog
+- title: Group
+  url: /element/
+- title: Research
   url: /blog/
-- title: Categories
+- title: Publications
   url: /categories/
-- title: Search
+- title: Contact
   url: /search/
-- title: Fork Alembic
-  url: https://github.com/daviddarnes/alembic
+# - title: Fork Alembic
+#   url: https://github.com/daviddarnes/alembic
+
 
 # navigation_footer:
-footer:
-- title: A Framework for Flood and Disease Modeling
+# - title: A Framework for Flood and Disease Modeling
+#   url: https//flodismod.github.io
 
+# social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
+#   Twitter: https://twitter.com/DavidDarnes
+#   LinkedIn: https://www.linkedin.com/in/daviddarnes
+#   GitHub: https://github.com/daviddarnes
+#   link: https://darn.es
+#   RSS: /feed.xml
 
-social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
-  Twitter: https://twitter.com/DavidDarnes
-  LinkedIn: https://www.linkedin.com/in/daviddarnes
-  GitHub: https://github.com/daviddarnes
-  link: https://darn.es
-  RSS: /feed.xml
-
-sharing_links: # Appear at the bottom of single blog posts, add as desired. The value can be 'true' or the desired button colour
-  Twitter: "#0d94e7"
-  facebook: "#3B5998"
-  Email: true
+# sharing_links: # Appear at the bottom of single blog posts, add as desired. The value can be 'true' or the desired button colour
+#   Twitter: "#0d94e7"
+#   facebook: "#3B5998"
+#   Email: true
 
 # Load custom fonts from fonts.google.com etc
 #
