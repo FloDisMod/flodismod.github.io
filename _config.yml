@@ -34,7 +34,7 @@ plugins:
 - jekyll-include-cache
 - jemoji
 
-# 3. Gem settings
+# 3. Gem settings [TODO:]
 paginate: 2 # jekyll-paginate > items per page
 paginate_path: blog/page:num # jekyll-paginate > blog page
 jekyll-mentions: https://twitter.com # jekyll-mentions > service used when @replying
@@ -60,15 +60,15 @@ permalink: pretty  # Permalink style (/YYYY/MM/DD/page-name/)
 excerpt_separator: <!-- more --> # Marks end of excerpt in posts
 timezone: Europe/London # Timezone for blog posts and alike
 
-# 5. Collections
-collections:
-  posts:
-    title: Posts # Needed for Siteleaf
-    output: true
-    description: "My thoughts and ideas" # The post list page content
-    feature_text: |
-      Welcome to the blog
-    feature_image: "https://picsum.photos/2560/600?image=866"
+# 5. Collections [LT: comment off, we don't need this part]
+# collections:
+#   posts:
+#     title: Posts # Needed for Siteleaf
+#     output: true
+#     description: "My thoughts and ideas" # The post list page content
+#     feature_text: |
+#       Welcome to the blog
+#     feature_image: "https://picsum.photos/2560/600?image=866"
 
 # 6. Jekyll collections settings
 defaults:
@@ -90,7 +90,7 @@ defaults:
     values:
       layout: page # Set the default layout for pages
 
-# 7. Site settings
+# 7. Site settings [LT: change the info]
 encoding: utf-8 # Make sure the encoding is right
 lang: en-GB # Set the site language
 title: "FloDisMod" # Site name or title, also used in jekyll-seo-tag
@@ -98,8 +98,8 @@ logo: "/assets/logos/FloDisMod.png" # Site logo, also used in jekyll-seo-tag
 description: "A Framework for Flood and Disease Modeling" # Site description and default description, also used in jekyll-seo-tag
 url: "https://flodismod.github.io" # Site url, also used in jekyll-seo-tag
 baseurl: ""
-repo: "https://github.com/daviddarnes/alembic"
-email: "me@daviddarnes.com"
+repo: "https://github.com/FloDisMod/flodismod.github.io"
+email: "liting@utexas.edu" #[LT:Don't know what this is for. Put my email here.]
 # disqus: "alembic-1" # Blog post comments, uncomment the option and set the site ID from your Disqus account
 # date_format: "%-d %B %Y" # Blog post date formatting using placeholder formatting
 # google_analytics: ""
@@ -108,7 +108,7 @@ email: "me@daviddarnes.com"
 # short_name: "Al" # The web application short name, defaults to the site title
 css_inline: true # Will insert all styles into a single <style> block in the <head> element and remove the style <link> reference
 
-# 8. Site favicons & manifest icons
+# 8. Site favicons & manifest icons [TODO:have our own favicons here]
 favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
   16: '/assets/logos/logo@16px.png'
   32: '/assets/logos/logo@32px.png'
@@ -131,14 +131,13 @@ navigation_header:
   url: /publications/
 - title: Contact
   url: /contact/
-# - title: Fork Alembic
-#   url: https://github.com/daviddarnes/alembic
 
 
 navigation_footer:
 - title: A Framework for Flood and Disease Modeling
   url: https://flodismod.github.io
 
+#[LT: comment off, don't need them]
 # social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
 #   Twitter: https://twitter.com/DavidDarnes
 #   LinkedIn: https://www.linkedin.com/in/daviddarnes
