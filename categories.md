@@ -1,5 +1,7 @@
 ---
-title: Research
+title: 
+feature_text: |
+  ## Group
 feature_image: "/assets/cover_photo.png" 
 layout: categories
 excerpt: "Category index"
