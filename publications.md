@@ -1,5 +1,5 @@
 ---
-title: 
+title: List of Publications
 feature_text: |
   # Publications
   
