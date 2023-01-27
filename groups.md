@@ -1,12 +1,12 @@
 ---
-title: 
+title: Group Members
 feature_text: |
   ## Group
   
 feature_image: "/assets/cover_photo.png" 
 ---
 
-## Group Members
+
 
 ### The Oden Institute for Engineering Science and Computing, Department of Aerospace Engineering & Engineering Mechanics, Texas
 * An item
