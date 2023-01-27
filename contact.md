@@ -1,7 +1,11 @@
 ---
 title: Contact
-feature_image: "https://flodismod.github.io/assets/cover_photo.png"
+feature_text: |
+  ## Contact
+  
+feature_image: "/assets/cover_photo.png" 
 ---
+
 
 
 Contact us: 
