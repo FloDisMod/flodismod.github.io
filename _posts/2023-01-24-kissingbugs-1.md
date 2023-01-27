@@ -1,7 +1,8 @@
 ---
 title: Kissing Bugs Database
 categories:
-- General
+- Disease
+- Database
 - External sources
 feature_image: "https://flodismod.github.io/assets/cover_photo.png"
 ---
