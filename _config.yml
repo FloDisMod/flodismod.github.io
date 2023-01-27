@@ -126,11 +126,11 @@ navigation_header:
 - title: Group
   url: /groups/
 - title: Research
-  url: /blog/
-- title: Publications
   url: /categories/
+- title: Publications
+  url: /publications/
 - title: Contact
-  url: /search/
+  url: /contact/
 # - title: Fork Alembic
 #   url: https://github.com/daviddarnes/alembic
 
