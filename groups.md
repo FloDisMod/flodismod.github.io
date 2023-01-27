@@ -23,7 +23,7 @@ Texas Advanced Computing Center, Texas
 * An item
 * An item
 
-#### Collaborators
+# Collaborators
 
 Universidad Autónoma de Nuevo León, Mexico
 * An item
