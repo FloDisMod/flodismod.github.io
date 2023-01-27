@@ -1,7 +1,7 @@
 ---
-title: Publications
+title: 
 feature_text: |
-
+  # Publications
   
 feature_image: "/assets/cover_photo.png" 
 ---
