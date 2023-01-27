@@ -1,7 +1,7 @@
 ---
 title: Group
 feature_text: |
-  ## Group
+
   
 feature_image: "/assets/cover_photo.png" 
 ---
