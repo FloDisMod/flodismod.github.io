@@ -1,12 +1,10 @@
 ---
-title:
+title: Kissing Bugs in North America
 feature_text: |
   ## Research
 feature_image: "/assets/cover_photo.png"
 
 ---
-
-## Kissing Bugs in North America
 <br />
 {% include figure.html image="/assets/project/sanguisuga.png" position="left" width="400" height="400" %}
 <br />

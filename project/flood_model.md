@@ -1,13 +1,10 @@
 ---
-title:
+title: Model Flooding and Storm Surges
 feature_text: |
   ## Research
 feature_image: "/assets/cover_photo.png"
 
 ---
-
-## Model Flooding and Storm Surges
-
 <br />
 
 #### Visit [Coastal Emergency Risks Assessment (CERA)](https://cera.coastalrisk.live)
