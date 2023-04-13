@@ -34,31 +34,18 @@ plugins:
 - jekyll-include-cache
 - jemoji
 
-# 3. Gem settings [TODO:]
-paginate: 2 # jekyll-paginate > items per page
+# 3. Gem settings [LH: delete jekyll-mentions, twitter and social]
+paginate: 5 # jekyll-paginate > items per page
 paginate_path: blog/page:num # jekyll-paginate > blog page
-jekyll-mentions: https://twitter.com # jekyll-mentions > service used when @replying
-twitter:
-  username: DavidDarnes # jekyll-seo-tag > Owners twitter username
 author: FloDisMod team # jekyll-seo-tag > default author
-social: # jekyll-seo-tag > social overrides
-  name: David Darnes # jekyll-seo-tag > real name
-  links:  # jekyll-seo-tag > social aliases (sameAs)
-    - https://twitter.com/DavidDarnes
-    - https://www.facebook.com/daviddarnes
-    - https://www.linkedin.com/in/daviddarnes
-    - https://github.com/daviddarnes
-# markdown: CommonMark # Markdown parse settings, CommonMark performs slightly better an others in build time
-# commonmark:
-  # options: ["SMART", "FOOTNOTES"]
-  # extensions: ["strikethrough", "autolink", "table"]
 
-# 4. Jekyll settings
+
+# 4. Jekyll settings [LH: update timezone to America/Chicagp]
 sass:
   style: compressed # Style compression
 permalink: pretty  # Permalink style (/YYYY/MM/DD/page-name/)
 excerpt_separator: <!-- more --> # Marks end of excerpt in posts
-timezone: Europe/London # Timezone for blog posts and alike
+timezone: America/Chicago # Timezone for blog posts and alike
 
 # 5. Collections [LT: comment off, we don't need this part]
 # collections:
@@ -74,13 +61,13 @@ timezone: Europe/London # Timezone for blog posts and alike
 defaults:
   -
     scope:
-      path: ""
+      path: "" # an empty string here means all files in the project
     values:
       image: "/assets/default-social-image.png" # Default image for sharing
   -
     scope:
       path: ""
-      type: "posts"
+      type: "posts" #this will only set the layout for files where the type is posts
     values:
       layout: post # Set the default layout for posts
   -
@@ -90,7 +77,7 @@ defaults:
     values:
       layout: page # Set the default layout for pages
 
-# 7. Site settings [LT: change the info]
+# 7. Site settings [LT: change the info, delete disqus, google_analytics]
 encoding: utf-8 # Make sure the encoding is right
 lang: en-GB # Set the site language
 title: "FloDisMod" # Site name or title, also used in jekyll-seo-tag
@@ -100,15 +87,12 @@ url: "https://flodismod.github.io" # Site url, also used in jekyll-seo-tag
 baseurl: ""
 repo: "https://github.com/FloDisMod/flodismod.github.io"
 email: "liting@utexas.edu" #[LT:Don't know what this is for. Put my email here.]
-# disqus: "alembic-1" # Blog post comments, uncomment the option and set the site ID from your Disqus account
-# date_format: "%-d %B %Y" # Blog post date formatting using placeholder formatting
-# google_analytics: ""
-# google_analytics_anonymize_ip: ""
-# service_worker: false # Will turn off the service worker if set to false
-# short_name: "Al" # The web application short name, defaults to the site title
+date_format: "%-d %B %Y" # Blog post date formatting using placeholder formatting
+service_worker: false # Will turn off the service worker if set to false
+short_name: "FDM" # The web application short name, defaults to the site title
 css_inline: true # Will insert all styles into a single <style> block in the <head> element and remove the style <link> reference
 
-# 8. Site favicons & manifest icons [TODO:have our own favicons here]
+# 8. Site favicons & manifest icons [TODO:make those with Procreate]
 favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
   16: '/assets/logos/logo@16px.png'
   32: '/assets/logos/logo@32px.png'
@@ -123,14 +107,22 @@ favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
 navigation_header:
 - title: Home
   url: /
-- title: Group
+- title: Team
   url: /groups/
 - title: Research
-  url: /categories/
-- title: Publications
-  url: /publications/
+  url: /research_page/
+# - title: Education
+#   url: /education/
+- title: News
+  url: /news/
+- title: Extension & Outreach
+  url: /extension_outreach/
+# - title: Digital Infrastructure
+#   url: /digital_infra/
 - title: Contact
   url: /contact/
+- title: Search
+  url: /search/
 
 
 navigation_footer:

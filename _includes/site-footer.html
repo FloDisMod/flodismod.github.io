@@ -1,9 +1,68 @@
-<footer class="footer">
-  <div class="container">
-    <div class="copyright  typeset">
-      <small class="small">&copy; {{ site.title }} {{ site.time | date: '%Y' }}</small>
-    </div>
+<style>
+span.small {
+  font-size: smaller;
+}
+* {
+  box-sizing: border-box;
+}
 
-    {% include nav-footer.html %}
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.left, .right {
+  width: 30%;
+}
+
+.middle {
+  width: 40%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+p.a {
+  margin: 20px 20px;
+  font-size: 10px;
+  line-height: 11px;
+}
+
+p.b {
+  margin: 20px 20px;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+</style>
+
+<footer class="footer">
+  <div class="row">
+      <div class="column left">
+        <div class="copyright  typeset">
+          <small class="small">&copy; {{ site.title }} {{ site.time | date: '%Y' }}</small>
+        </div>
+      </div>
+
+      <div class="column middle">
+        <p class='b'>This work is supported by Wellcome Trust, Planet Texas 2050 and Hook Fellowships - St. Edwards University.</p>
+      </div>
+      <div class="column right">
+        <p class='b'>Contact: Dr. Chrysoula Panethymitaki</p>
+        <p class='b'><a href="mailto:name@email.com">chrysoula@austin.utexas.edu<a> </p>
+      </div>
+  </div>
+  <div class="row">
+    <center>
+    <p class='a'>Data Disclaimer: please check with your regional National Weather Service office for the official water level forecast. For official storm surge information associated with tropical cyclones, please consult advisories and warnings issued by the National Hurricane Center.</p>
+    <p class='a'>All rights reserved.</p>
+    </center>
   </div>
 </footer>
+
+    <!-- {% include nav-footer.html %} -->
