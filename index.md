@@ -2,7 +2,6 @@
 title: FloDisMod
 feature_text: |
   A Framework for Flood and Disease Modeling
-feature_image: "/assets/cover_photo.png"
 ---
 ## Learn Our Work in 1 minute
 
