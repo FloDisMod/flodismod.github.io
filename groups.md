@@ -1,10 +1,8 @@
 ---
-feature_text: |
-  ## Team
+title: Team
 
 feature_image: "/assets/cover_photo.png"
 ---
-% Team
 ## Group Members
 <br />
 

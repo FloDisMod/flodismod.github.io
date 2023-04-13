@@ -1,7 +1,6 @@
 ---
-title:
-feature_text: |
-  ## Research
+title: Research
+
 feature_image: "/assets/cover_photo.png"
 
 ---

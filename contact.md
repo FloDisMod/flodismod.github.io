@@ -1,7 +1,5 @@
 ---
-title:
-feature_text: |
-  # Contact
+title: Contact
 
 feature_image: "/assets/cover_photo.png"
 ---

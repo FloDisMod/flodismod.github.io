@@ -1,7 +1,6 @@
 ---
-title:
-feature_text: |
-  ## Extension & Outreach
+title: Extension & Outreach
+
 feature_image: "/assets/cover_photo.png"
 
 ---
