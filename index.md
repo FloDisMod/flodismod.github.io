@@ -5,13 +5,12 @@ feature_text: |
 feature_image: "/assets/cover_photo.png"
 ---
 
-
-
+% Learn our work | FloDisMod 
 
 ## Learn Our Work in 1 minute
 
 
-Will place a large illustration here.
+Some paragraphs.
 
 
 ## Research Spotlight     <span style="font-size:20px;">  [See All Projects](/research_page/)</span>

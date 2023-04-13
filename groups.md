@@ -4,7 +4,7 @@ feature_text: |
 
 feature_image: "/assets/cover_photo.png"
 ---
-
+% Team
 ## Group Members
 <br />
 
