@@ -45,7 +45,7 @@ email
 research interests<br />
 email
 
-<br />
+<!-- <br />
 <br />
 ## Funding
 <br />
@@ -70,4 +70,4 @@ Support our project: [AI-Enabled Model Integration](https://bridgingbarriers.ute
 
 {% include figure.html image="/assets/organization_logo/stedwards.png" position="left" width="200" height="200" %}
 ##### [Hook Fellowships - St. Edwards University](https://www.stedwards.edu/wild-basin/research/hook-fellows)
-Support undergraduate research at Wild Basin/Balcones Canyonlands, development of micro-environment maps, and models with RISE and SOAR flagship (2022-2023).
+Support undergraduate research at Wild Basin/Balcones Canyonlands, development of micro-environment maps, and models with RISE and SOAR flagship (2022-2023). -->
