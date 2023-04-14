@@ -5,11 +5,13 @@ feature_text: |
 
 feature_image: "/assets/cover_photo.png"
 ---
-## Learn Our Work in 1 minute
+
+# Under Construction
+<!-- ## Learn Our Work in 1 minute
 
 
-Some paragraphs.
-
+Some paragraphs. -->
+<!-- 
 
 ## Research Spotlight     <span style="font-size:20px;">  [See All Projects](/research_page/)</span>
 
@@ -38,4 +40,4 @@ Some paragraphs.
 
 We bring together expertise with a variety of computational/mathematical modeling and community engagement experience applied to flooding and infectious diseases. The long-term goal of this project is to enhance society’s knowledge of the impact of the emergence of infectious diseases in vulnerable populations in the world’s coastal regions and provide models and maps that can be used to guide the disease management in these regions, influenced by seasonality, extreme weather and project climate change events, with the ultimate goal of helping prevent/control infectious diseases.
 
-{% include button.html text="Meet Our Team" link="/groups/" %}
+{% include button.html text="Meet Our Team" link="/groups/" %} -->
