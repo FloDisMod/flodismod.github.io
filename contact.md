@@ -1,11 +1,16 @@
 ---
 title: Contact
+feature_text: |
+   Contact
 
-feature_image: "/assets/cover_photo.png"
+feature_image: "/assets/cover_photo/sunset.png"
+feature_credit: Photo by Dr. Tamer Oraby
 ---
 
 
 
+Do you have questions about collaborating with FloDisMod project group, comments about our work, or questions for our team?
 
-* Email: Dr. Chrysoula Panethymitaki <a href="mailto:name@email.com">chrysoula@austin.utexas.edu<a>
-* Address: 201 E. 24th Street, POB 6.424, Austin, Texas 78712-1229 
+
+
+Get in touch with our Project Manager Dr. Chrysoula Panethymitaki: <a href="mailto:name@email.com">chrysoula@austin.utexas.edu<a>

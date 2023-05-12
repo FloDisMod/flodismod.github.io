@@ -1,22 +1,16 @@
 ---
 title: Model Flooding and Storm Surges
 feature_text: |
-  ## Research
-feature_image: "/assets/cover_photo.png"
+  Research
+
+feature_image: "/assets/cover_photo/pier.png"
+feature_credit: Photo by Dr. Tamer Oraby
 
 ---
 <br />
-<!-- 
-#### Visit [Coastal Emergency Risks Assessment (CERA)](https://cera.coastalrisk.live)
-<br />
-{% include figure.html image="/assets/project/flood_model.png" position="right" width="800" height="800" %}
+### Under Construction
 
-<br />
-Access the latest model: link
-<br />
+{% include figure.html image="/assets/project/flood_model.png"  width="400" height="400" %}
 
-<br />
-#### Publications
-list -->
-<br />
+
 {% include button.html text="Back" link="/research_page/" %}

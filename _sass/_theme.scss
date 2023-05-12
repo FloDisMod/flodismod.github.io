@@ -9,10 +9,26 @@ body {
 }
 
 .container {
-  width: 90%;
-  max-width: 1200px;
+  width: 80%;
+  max-width: 2000px;
   margin: 0 auto;
 }
+
+
+
+.container2 {
+  width: 80%;
+  max-width: 1400px;
+  margin: auto;
+}
+
+.container3 {
+  width: 80%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+
 
 
 // Header, feature and footer
@@ -46,17 +62,50 @@ body {
 .feature {
   padding-bottom: .4rem;
   margin-bottom: 1.6rem;
-  text-align: center;
+  text-align: left;
   background: $featureBackgroundColour;
   background-size: cover;
-  background-position: center;
+  background-position: left;
+  color: #ffffff;
+  
   .container {
-    min-height: 35vh;
-    max-width: 60%;
+    min-height: 50vh;
+    max-width: 90%;
     @include flex-direction(column);
     @include justify-content(center);
+    line-height: 40pt;
+    // font-size: 28pt;
+    // line-height: 150%;
+    // font-size: 28pt;
+    // line-height: 200%;
+    // font-weight: bold;
   }
 }
+
+.feature-text{
+  padding: 10px 0;
+  padding-top: .4rem;
+  margin-top: 1.6rem;
+  margin-left: .8rem;
+  color: #ffffff;
+  text-align: left;
+  font-size: 18pt;
+  line-height: 200%;
+  font-weight: bolder;
+}
+
+
+.feature-credit{
+  padding-bottom: .4rem;
+  margin-bottom: .4rem;
+  margin-left: .8rem;
+  color: #ffffff;
+  text-align: left;
+  font-size: 10pt;
+  font-weight: lighter;
+}
+
+
 
 .logo {
   display: inline-block;
@@ -123,6 +172,7 @@ body {
   @include flex(1, 0, auto);
   @include justify-content(flex-start);
   margin-bottom: 1.6rem;
+  
   @include breakpoint(break-1) {
     @include justify-content(center);
     @include flex-direction(row);
@@ -131,13 +181,17 @@ body {
 
 .header,
 .feature,
+
+
 .footer {
   @include flex(0, 0, auto);
 }
 
 .content {
+  font-size:18px;
+  text-align: justify;
   @include breakpoint(break-1) {
-    width: 62%;
+    width: 90%;
   }
 }
 
@@ -420,6 +474,7 @@ pre code {
 
 // Sassline overrides
 .typeset {
+
   a > code {
     text-shadow: none;
   }

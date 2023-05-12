@@ -35,7 +35,7 @@ plugins:
 - jemoji
 
 # 3. Gem settings [LH: delete jekyll-mentions, twitter and social]
-paginate: 5 # jekyll-paginate > items per page
+paginate: 3 # jekyll-paginate > items per page
 paginate_path: blog/page:num # jekyll-paginate > blog page
 author: FloDisMod team # jekyll-seo-tag > default author
 
@@ -105,23 +105,19 @@ favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
 
 # 9. Site navigation [LT: modify all the files mentioned here]
 navigation_header:
-- title: Home
+- title: HOME
   url: /
-- title: Team
+- title: TEAM
   url: /groups/
-- title: Research
+- title: RESEARCH
   url: /research_page/
-# - title: Education
-#   url: /education/
-- title: News
+- title: NEWS & OUTREACH
   url: /news/
-- title: Extension & Outreach
-  url: /extension_outreach/
-# - title: Digital Infrastructure
-#   url: /digital_infra/
-- title: Contact
+- title: DIGITAL INFRASTRUCTURE
+  url: /digital_infra/
+- title: CONTACT
   url: /contact/
-- title: Search
+- title: SEARCH
   url: /search/
 
 
@@ -146,7 +142,9 @@ navigation_footer:
 #
 # TIP: Try to keep the number of urls as low to reduce the performance cost
 #      If multiple fonts can be requested in a single url opt for this
-fonts:
+
+
+fonts: 
   preconnect_urls:
     - https://fonts.gstatic.com
   font_urls:

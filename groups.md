@@ -1,11 +1,22 @@
 ---
 title: Team
+feature_text: |
+ #### Team
+
 
 feature_image: "/assets/cover_photo.png"
+
 ---
+
+
+{% include profile-card.html%}
+
+
+<!-- 
 ## Group Members
 <br />
-
+feature_image: "/assets/cover_photo/team.png"
+feature_credit: Photo by ?
 {% include figure.html image="/assets/team_profile/profile_pic.png" position="left" width="200" height="200" %}
 #### [Name](/ourteam/profile_example)
 ##### title
@@ -45,7 +56,7 @@ email
 research interests<br />
 email
 
-<!-- <br />
+<br />
 <br />
 ## Funding
 <br />

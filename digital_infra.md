@@ -1,12 +1,12 @@
 ---
-title:
+title: Digital Infrastructure
 feature_text: |
-  # Digital Infrastructure
+  Digital Infrastructure
 
-feature_image: "/assets/cover_photo.png"
+feature_image: "/assets/cover_photo/oden2023.png"
+feature_credit: Photo by Liting Huang
 ---
 
-Digital Infrastructure
-* Texas Data Repository
-* PT2050
-* DesignSafe
+Under Construction
+
+{% include digital_infrastructure.html%}
