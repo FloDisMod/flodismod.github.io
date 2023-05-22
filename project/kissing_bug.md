@@ -8,7 +8,7 @@ feature_credit: Photo by Dr. Tamer Oraby
 ---
 <br>
 
-If you live in the nothern Mexico or southern United States, you may spot a [kissing bug (triatomines)](https://www.inaturalist.org/taxa/472290-Triatominae/browse_photos) in your neighborhood or even inside your house. You may question what makes them different from other insects and why we need to pay special attention to these creatures. 
+If you live in the nothern Mexico or southern United States, you may spot a [kissing bug (triatominae)](https://www.inaturalist.org/taxa/472290-Triatominae/browse_photos) in your neighborhood or even inside your house. You may question what makes them different from other insects and why we need to pay special attention to these creatures. 
 
 
 You probably have heard about the Chagas Disease. This disease is one of the most neglected tropical diseases. It is caused by the pathogen *Trypanosoma cruzi*, and it is estimated that more than 8 million people across the Americas are infected. The disease undergoes  two phases, acute and chronic, with the symptomatology ranging from mild (e.g. skin lesion and a purplish swelling of eye lid) or asymptomatic during the acute phase to fatal (e.g. fever and difficulty in breathing) during the chronic phase[1][5]. The initial acute phase occurs from the point the pathogen enter the patient's body to about two months after that[5]. Then, there is a chance for the patient to develop chronic phase in one to three decades later, which put the patients into the risk of destruction of the nervous system and heart muscle[5]. Chagas is a vector-borne disease, and the kissing bugs, the blood-sucking insects, are its major carriers[1].
