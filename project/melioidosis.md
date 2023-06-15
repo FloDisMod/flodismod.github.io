@@ -1,5 +1,5 @@
 ---
-title: "The growing risk of melioidosis in United States"
+title: "Melioidosis in United States"
 feature_text: |
   Research
 
