@@ -41,12 +41,23 @@ We are preparing for the publication. Please be patient with us. The following i
 
 {% include figure.html image="/assets/project/sanguisuga.png"  width="400" height="400" %}
 
-[1] CDC – National Center for Health Statistics – Parasites - American Trypanosomiasis (also known as Chagas Disease). https://www.cdc.gov/parasites/chagas/index.html. May 11, 2023
-[2] Fanny E Eberhard, Sarah Cunze, Judith Kochmann, Sven Klimpel (2020) Modelling the climatic suitability of Chagas disease vectors on a global scale eLife 9:e52072 https://doi.org/10.7554/eLife.52072
-[3] Hodo CL, Wilkerson GK, Birkner EC, Gray SB, Hamer SA. Trypanosoma cruzi Transmission Among Captive Nonhuman Primates, Wildlife, and Vectors. Ecohealth. 2018 Jun;15(2):426-436. doi: 10.1007/s10393-018-1318-5. Epub 2018 Mar 1. PMID: 29497880; PMCID: PMC6132415.
-[4]Martinez-Hernandez, Fernando & Martínez, Brizia & Rendón-Franco, Emilio & Villalobos, Guiehdani & Muñoz-García, Claudia. (2022). Trypanosoma cruzi, beyond the dogma of non-infection in birds. Infection, Genetics and Evolution: Journal of Molecular Epidemiology and Evolutionary Genetics in Infectious Diseases. 105239. 10.1016/j.meegid.2022.105239. 
 
-[5]World Health Organization, April 6, 2023. Chagas Disease (Also Known as American Trypanosomiasis). https://www.who.int/news-room/fact-sheets/detail/chagas-disease-(american-trypanosomiasis)(accessed 11 May 2023). 
-[6] Rodrigo de Oliveira Andrade, Açaí fruit can transmit Chagas disease, https://www.scidev.net/global/news/a-a-fruit-can-transmit-chagas-disease/ (accessed 11 May 2023).
+
+[1] CDC – National Center for Health Statistics. "Parasites - American Trypanosomiasis (also known as Chagas Disease)". 13 Apr. 2022. https://www.cdc.gov/parasites/chagas/index.html. (accessed 11 May 2023)
+
+
+[2] Eberhard, Fanny E., et al. "Modelling the climatic suitability of Chagas disease vectors on a global scale." Elife 9 (2020): e52072.
+
+
+[3] Hodo, Carolyn L., et al. "Trypanosoma cruzi transmission among captive nonhuman primates, wildlife, and vectors." EcoHealth 15 (2018): 426-436.
+
+
+[4]Martínez-Hernández, Fernando, et al. "Trypanosoma cruzi, beyond the dogma of non-infection in birds." Infection, Genetics and Evolution 99 (2022): 105239.
+
+
+[5]World Health Organization. "Chagas Disease (Also Known as American Trypanosomiasis)". 6 Apr. 2023. https://www.who.int/news-room/fact-sheets/detail/chagas-disease-(american-trypanosomiasis) (accessed 11 May 2023). 
+
+
+[6] Rodrigo de Oliveira Andrade. "Açaí fruit can transmit Chagas disease". 11 Jan. 2019. https://www.scidev.net/global/news/a-a-fruit-can-transmit-chagas-disease/ (accessed 11 May 2023).
 
 {% include button.html text="Back" link="/research_page/" %}
