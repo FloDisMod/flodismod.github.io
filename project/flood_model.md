@@ -23,7 +23,13 @@ Our research in particular focuses on the resulting compound flooding associated
 
 To perform our research studies, we actively develop and apply the Advanced Circulation Model (ADCIRC) [3] as it has been extensively used for storm surge and flood forecasting. It has been applied to numerous real-world scenarios, including hurricane impact assessments, emergency response planning, and coastal infrastructure design [1].  Its accuracy and reliability have been established through rigorous comparisons with observational data from previous storms [1], rendering it an indispensable tool for coastal communities and researchers studying coastal dynamics.
 
+
 ADCIRC is a finite element model that employs mathematical equations to simulate the intricate behavior of water, incorporating factors such as wind, seafloor bathymetry, and coastline features [4]. It is a valuable tool that utilizes powerful high performance computer simulations to model the immense power of the ocean in extreme weather conditions.
+
+
+Since 2006, ADCIRC has been used for event-based forecasting during hurricane events. PI Dawson and Co-PI Valseth are, and have been, involved in projects developing such forecasts, including the Coastal Emergency Risks Assessment (CERA - [https://cera.coastalrisk.live](https://cera.coastalrisk.live)) tool.
+
+
 
 
 [1] Dawson, C. and Proft, J. (2012). Predicting Storm Surge. In P. Bedient (Ed.), Lessons From Hurricane Ike, (pp 50-65). Texas A&M University Press. 
