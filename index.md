@@ -11,7 +11,8 @@ FloDisMod is a framework for flood and disease modeling. Initially we are focusi
 
 A key aim of our project is to develop an openly accessible computational tool that could be used by non-expert users, such as researchers and health professionals, and allow them to use available meteorological inputs and epidemiological information to facilitate analysis, prediction and comprehensive visualization of data.
 
-<!-- {% include button.html text="Meet Our Team" link="/groups/" %} -->
+{% raw %}{% include button.html text="Meet Our Team" link="/groups/" %}{% endraw %}
+
 
 ##### Research
 {% include display-research.html%}
