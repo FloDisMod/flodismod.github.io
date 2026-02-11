@@ -1,5 +1,5 @@
-## Current Team
+
 {% include profile-card.html %}
 
-## Former Team
+## Past Team
 {% include profile-card-former.html %}
