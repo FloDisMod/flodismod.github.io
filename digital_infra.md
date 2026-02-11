@@ -1,6 +1,5 @@
 ---
-title: Digital Infrastructure
-published: false
+title: false
 feature_text: |
   Digital Infrastructure
 
