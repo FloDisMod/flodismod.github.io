@@ -18,15 +18,3 @@ A key aim of our project is to develop an openly accessible computational tool t
   </a>
 </div>
 -->
-
-<br>
-
-##### Research
-{% include display-research.html %}
-
-<br>
-
-##### Latest Post from NEWS & OUTREACH  
-{% include try_blog.html %}
-
-<br>
