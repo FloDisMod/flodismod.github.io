@@ -115,8 +115,6 @@ navigation_header:
   url: /news/
 - title: CONTACT
   url: /contact/
-- title: SEARCH
-  url: /search/
 
 
 navigation_footer:
