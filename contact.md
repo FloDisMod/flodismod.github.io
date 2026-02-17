@@ -14,4 +14,4 @@ Do you have questions about collaborating with FloDisMod project group, comments
 
 
 Get in touch with our Project Manager Dr. Chrysoula Panethymitaki: <a href="mailto:name@email.com">chrysoula@austin.utexas.edu</a>
-or Project Lead Dr. Katherine Brown: <a href="mailto:name@email.com">kate01@mail.utexas.edu</a>
+<br>or Project Lead Dr. Katherine Brown: <a href="mailto:name@email.com">kate01@mail.utexas.edu</a>
