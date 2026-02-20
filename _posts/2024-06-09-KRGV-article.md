@@ -9,8 +9,6 @@ Watch this exciting interview with Dr. Teresa Patricia Feria on Rio Grande Valle
 Texas Rio Grande Valley to help prevent the spread of vector borne diseases which spread by insects.
 <!-- more -->
 
-{% include video0607.html title="Interview with Dr. Teresa Patricia Feria" %}
-
 Click [here](https://www.krgv.com/news/utrgv-works-to-prevent-spread-of-vector-borne-disease-in-the-valley/) to visit the KRGV web page.
 
 {% include button.html text="Back" link="/news/" %}
