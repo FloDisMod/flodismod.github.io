@@ -19,6 +19,6 @@ We began archiving our daily Vibrio spp. proliferation forecasts for Southwest F
 
 
 
-{% include figure.html image="assets/project/Shadowatch_platform.png"  width="800" height="800" %}
+{% include figure.html image="/assets/project/Shadowatch_platform.png"  width="800" height="800" %}
 
 {% include button.html text="Back" link="/research_page/" %}
