@@ -18,8 +18,9 @@ April 10-12, 2025
 
 Alvaro Silvestre Zavala, FloDisMod Fellow, participated in the Rice University conference on “Communication Strategies in Climate Change Outreach: The FloDisMod and FeriaLab Approach”. During this conference, Alvaro also participated in networking events, interacted with attendees from different institutions, and lastly, attended an awareness play called “Spill” at the Moody Center for the Arts, located at Rice University. The presentations below were created by Alvaro Silvestre about his participation in this conference.
 
-{% include canva_0410.html title="FloDisMod & FeriaLab at the Texas Climate Conference 2025 by Alvaro Jesus Silvestre Zavala" %}
-{% include canva_0411.html title="FloDisMod_Ferialab_TexasClimateConference by Alvaro Jesus Silvestre Zavala" %}
+{% include canva_0410.html title="FloDisMod & FeriaLab at the Texas Climate Conference 2025 by Alvaro Jesus Silvestre Zavala" width="800" %}
+
+{% include canva_0411.html title="FloDisMod_Ferialab_TexasClimateConference by Alvaro Jesus Silvestre Zavala" width="800" %}
 
 
 {% include button.html text="Back" link="/news/" %}
