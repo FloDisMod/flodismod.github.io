@@ -537,7 +537,8 @@ pre code {
 }
 
 .grant-item img {
-  width: 140px;
+  max-width: 100px;
+  width: 100%;
   height: auto;
   object-fit: contain;
 }
