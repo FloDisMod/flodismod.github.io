@@ -525,3 +525,39 @@ pre code {
   height: 100%;
   border: 0;
 }
+/* ========== Acknowledgements Page ========== */
+
+/* Grants */
+
+.grant-item {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.grant-item img {
+  width: 140px;
+  height: auto;
+  object-fit: contain;
+}
+
+.grant-text {
+  line-height: 1.5;
+}
+
+/* Juliet image grid */
+
+.ack-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.ack-gallery img {
+  width: 100%;
+  aspect-ratio: 1 / 1;   /* forces perfect square */
+  object-fit: cover;     /* keeps uniform size */
+  border-radius: 8px;
+}
