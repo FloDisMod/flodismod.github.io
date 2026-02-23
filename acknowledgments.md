@@ -1,10 +1,9 @@
 ---
-title: Acknowledgements
-feature_text: |
-   Acknowledgements
+title: Acknowledgments
+feature_text: | Acknowledgments
 feature_image: "/assets/cover_photo/sunset.png"
 feature_credit: Photo by Dr. Tamer Oraby
-permalink: /acknowledgements/
+permalink: /acknowledgments/
 ---
 
 ## Grants
