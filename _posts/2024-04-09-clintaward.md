@@ -13,4 +13,6 @@ Clint Dawson describes his award-winning research activities on modeling storm s
 
 {% include video_0409.html title="Interview with Dr. Clint Dawson" %}
 
+Read more [here](https://impact.research.utexas.edu/presidents-award/2024-recipients).
+
 {% include button.html text="Back" link="/news/" %}
