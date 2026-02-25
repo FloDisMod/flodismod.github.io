@@ -7,9 +7,13 @@ feature_image: "/assets/cover_photo.png"
 {% include profile-short.html 
    name='Madison Russ' 
    extra='' 
-   position='Research Associate, Data Visualizations' 
+   position='Research Associate, The Oden Institute for Computational Science and Engineering, The University of Texas at Austin' 
    position2=''  
-   bio='Multifaceted- an artist, designer, and researcher- Madison Russ specializes in composing measured, 3D visualizations of hurricane impact on coastal communities. She holds a Master of Architecture from Rhode Island School of Design focusing on sustainability and energy efficiency. During her time at RISD, she supported ongoing hurricane inundation research at the University of Rhode Island Graduate School of Oceanography constructing 3D models of the New England coast. Madison joined the FloDisMod team at the University of Texas at Austin in October 2023. Her current work focuses on constructing 3D landscape assets of the Texas Coast using a combination of LiDAR, aerial imagery, and architectural rendering techniques. These assets are then connected flood and disease modeling frameworks, visualizing vulnerabilities of coastal communities.' 
+   bio='Madison Russ is a Research Associate at the Oden Institute for Computational Engineering and Sciences at The University of Texas at Austin, where she works with the FloDisMod team to create interactive 3D visualizations of coastal communities. She develops digital twins of cities that combine LiDAR, aerial imagery, parcel data, and architectural modeling techniques to represent flood and disease risk.
+   
+   Madison earned her Master of Architecture from the Rhode Island School of Design, focusing on sustainability and energy efficiency. During her graduate studies, she supported hurricane inundation research at the University of Rhode Island’s Graduate School of Oceanography by constructing 3D coastal models.
+   
+   Her work now focuses on moving beyond static imagery toward interactive web-based platforms. These digital environments allow researchers, policymakers, and community members to explore model outputs and better understand how environmental hazards affect vulnerable coastal regions.' 
    link='assets/team_profile/Russ_headshot.jpg' 
 %}
 
