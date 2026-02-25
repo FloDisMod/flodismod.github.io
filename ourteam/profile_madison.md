@@ -13,9 +13,7 @@ feature_image: "/assets/cover_photo.png"
    
    Madison earned her Master of Architecture from the Rhode Island School of Design, focusing on sustainability and energy efficiency. During her graduate studies, she supported hurricane inundation research at the University of Rhode Island’s Graduate School of Oceanography by constructing 3D coastal models.
    
-   Her work now focuses on moving beyond static imagery toward interactive web-based platforms. These digital environments allow researchers, policymakers, and community members to explore model outputs and better understand how environmental hazards affect vulnerable coastal regions.' 
-   link='assets/team_profile/Russ_headshot.jpg' 
-%}
+   Her work now focuses on moving beyond static imagery toward interactive web-based platforms. These digital environments allow researchers, policymakers, and community members to explore model outputs and better understand how environmental hazards affect vulnerable coastal regions.' link='assets/team_profile/Russ_headshot.jpg'%}
 
 []()
 
