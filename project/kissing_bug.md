@@ -1,5 +1,5 @@
 ---
-title: Kissing Bugs in North America
+title: Chagas Disease
 feature_text: |
    Research
 feature_image: "/assets/cover_photo/pier.png"
