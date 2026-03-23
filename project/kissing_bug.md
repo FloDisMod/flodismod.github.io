@@ -7,57 +7,18 @@ feature_credit: Photo by Dr. Tamer Oraby
 
 ---
 <br>
+"Chagas Disease is caused by the protozoan parasite Trypanosoma cruzi. Originally it was traditionally considered to be endemic in Central and South America but more recently has seen increased incidence in North America [1]. Current estimates suggest that more 7 million are infected with the disease worldwide (primarily in Latin America), with an additional 100 million people considered to be at risk [2].  T. cruzi is primarily spread by kissing bugs (or triatomines). Infection occurs via exposure to faeces/urine containing parasites which can be introduced via bite wounds, exposure to mucous membranes, or through ingestion of contaminated food or drink [2]. Chagas disease can also be transmitted through contaminated blood transfusions and organ transplantations, congenital and postnatal infections, and laboratory accidents [2]. 
 
-If you live in the nothern Mexico or southern United States, you may spot a [kissing bug (triatominae)](https://www.inaturalist.org/taxa/472290-Triatominae/browse_photos) in your neighborhood or even inside your house. You may question what makes them different from other insects and why we need to pay special attention to these creatures. 
+Chagas Disease has two phases: acute and chronic. The acute phase typically presents with little to no symptoms but if left untreated can progress into the chronic phase that can present as cardiac and/or gastrointestinal disease [3]. Without early effective treatment, the infection may persist for a lifetime, potentially resulting in cardiac, neural and digestive disorders that lead, in some cases, to sudden death [2,3]. In the acute phase, the disease is typically managed using the drugs benznidazole and nifurtimox, developed by Bayer and Roche, respectively, over 40 years ago [4]. However, both of these drugs are known to produce side effects which cause one in five patients to abandon/discontinue treatment [5]. New treatment strategies and vaccines are still under development but there is currently no effective treatment to eliminate the disease in the chronic stage [4,6,7].  Early diagnosis and treatment during the asymptomatic period are essential for effective cure and can also potentially prevent congenital transmission as well as progression to the chronic phase [2]. 
 
+Our work aims to address the need for increased awareness of Chagas disease. Our current research is focused on the curation of datasets and creation of habitat suitability maps to assist public health organizations and healthcare providers in identifying the disease and aid in the development of new strategies for screening in areas of the world where the disease is emerging.
 
-You probably have heard about the Chagas Disease. This disease is one of the most neglected tropical diseases. It is caused by the pathogen *Trypanosoma cruzi*, and it is estimated that more than 8 million people across the Americas are infected. The disease undergoes  two phases, acute and chronic, with the symptomatology ranging from mild (e.g. skin lesion and a purplish swelling of eye lid) or asymptomatic during the acute phase to fatal (e.g. fever and difficulty in breathing) during the chronic phase[1][5]. The initial acute phase occurs from the point the pathogen enter the patient's body to about two months after that[5]. Then, there is a chance for the patient to develop chronic phase in one to three decades later, which put the patients into the risk of destruction of the nervous system and heart muscle[5]. Chagas is a vector-borne disease, and the kissing bugs, the blood-sucking insects, are its major carriers[1].
-
-Kissing bugs like to bite people's faces, and this is also how they get their name. When feeding on blood, the kissing bugs inflate like balloons, and they could become infected with *T.cruzi* if the blood contains this pathogen. After digestion, their faeces and urine contain the *T.cruzi*. Humans become infected when their mucous membranes or break skin wounds get in contact with the feaces or urine of the kissing bugs [5], but transmission is also possible through contaminated blood transfusions and organ transplantations, through ingestion of contaminated food [5][6] and from mother to baby in utero[5][1]. Other animals, for example non-human primates (e.g. monkeys)[3] and American barn-owl (*Tyto furcata*)[4], become infected by eating the kissing bugs.
-
-If you think kissing bugs live in your neighborhood, don't leave your food on the table uncovered, or the kissing bugs may dump their waste on your snacks. If you are worried about Chagas, please talk to your healthcare provider. If, unfortunately, you get bitten by a kissing bug, don't scratch your kissing bug bite (which increases the chance of kissing bugs' feaces contacting the skin wounds), and consult your healthcare provider for medical advice. Your healthcare provider could help you with or connect you to specialists for blood tests and treatment. You could check out [Centers for Disease Control and Prevention](https://www.cdc.gov/parasites/chagas/index.html) and [Texas Department of State Health Services](https://www.dshs.texas.gov/chagas-disease) websites to learn how to take precautions.
-
-
-You may have loads of kissing bug questions to ask. So Do we!
-
-Here is our list of questions, and they form the foundations of our research.
-* Can we model kissing bugs’ suitable habitat distribution?
-* Can we predict the kissing bugs’ future suitable habitat distribution based on their current distribution?
-* How will climate change influence kissing bugs’ suitable habitat distribution? Chagas is one of the diseases which stays close to poverty and socially vulnerable groups. Climate justice is important.
-* How can we obtain more kissing bug data (both presence observation and samples which are sent to lab for testing)?
-
-
-What distinguish our research from previous studies?
-* Richer data sources - including research-grade citizen science data
-* Focuses on the impact of climate change by producing future projection under CMIP6 climate change scenarios.
-*  Ready for integrating with flood simulation.
-
-
-We are preparing for the publication. Please be patient with us. The following information will be shared on our website this fall:
-* North America kissing bug database
-* Interactive map for this database
-* Interactive map for kissing bug suitable habitat distribution
-
-
-{% include figure.html image="/assets/project/sanguisuga.png"  width="400" height="400" %}
-
-
-
-[1] CDC – National Center for Health Statistics. "Parasites - American Trypanosomiasis (also known as Chagas Disease)". 13 Apr. 2022. https://www.cdc.gov/parasites/chagas/index.html. (accessed 11 May 2023)
-
-
-[2] Eberhard, Fanny E., et al. "Modelling the climatic suitability of Chagas disease vectors on a global scale." Elife 9 (2020): e52072.
-
-
-[3] Hodo, Carolyn L., et al. "Trypanosoma cruzi transmission among captive nonhuman primates, wildlife, and vectors." EcoHealth 15 (2018): 426-436.
-
-
-[4]Martínez-Hernández, Fernando, et al. "Trypanosoma cruzi, beyond the dogma of non-infection in birds." Infection, Genetics and Evolution 99 (2022): 105239.
-
-
-[5]World Health Organization. "Chagas Disease (Also Known as American Trypanosomiasis)". 6 Apr. 2023. https://www.who.int/news-room/fact-sheets/detail/chagas-disease-(american-trypanosomiasis) (accessed 11 May 2023). 
-
-
-[6] Rodrigo de Oliveira Andrade. "Açaí fruit can transmit Chagas disease". 11 Jan. 2019. https://www.scidev.net/global/news/a-a-fruit-can-transmit-chagas-disease/ (accessed 11 May 2023).
-
-{% include button.html text="Back" link="/research_page/" %}
+1.	Forsyth, C, et al. Climate change and Trypanosoma cruzi transmission in North and central America. Lancet Microbe. 2024 Oct;5(10):100946
+2.	WHO Chagas disease (American trypanosomiasis): https://www.who.int/news-room/fact-sheets/detail/chagas-disease-(american-trypanosomiasis) (accessed March 12, 2026)
+3.	Zingales, B, et al. The revised Trypanosoma cruzi subspecific nomenclature: rationale, epidemiological relevance and research applications. Infect Genet Evol. 2012 Mar;12(2):240-53. 
+4.	 Infection, Genetics and Evolution 12.2 (2012): 240-253.
+5.	Lascano, F, et al., Review of pharmacological options for the treatment of Chagas disease Br J Clin Pharmacol. 2022 Feb;88(2):383-402.
+6.	Higuita, NIA., et al. Chagas disease in the United States: a call for increased investment and collaborative research. The Lancet Regional Health–Americas. 2024;34.
+7.	Dumonteil, E, et al. Safety and preservation of cardiac function following therapeutic vaccination against Trypanosoma cruzi in rhesus macaques. Journal of Microbiology, Immunology and Infection. 2023;56(2):400–407.
+8.	Jones KM, et al. Preclinical advances and the immunophysiology of a new therapeutic Chagas disease vaccine. Expert Review of Vaccines. 2022;21(9):1185–1203.
+"
