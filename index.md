@@ -57,10 +57,9 @@ Please explore this website to learn more about us and our work.
   }
 
   .short-video iframe {
-    aspect-ratio: 9 / 16;
     width: 100%;
     height: 100%;
-    min-height: 160px;
+    min-height: unset;
   }
 
   .caption {
@@ -100,13 +99,13 @@ Please explore this website to learn more about us and our work.
 <div class="featured-grid">
 
   <!-- Clint interview video: 2 columns -->
-  <div class="grid-item span-2">
+  <div class="grid-item span-2" style="min-height: 400px;">
     {% include video_0409.html title="Interview with Dr. Clint Dawson" %}
   </div>
 
-  <!-- Storm rendering image: 1 column -->
-  <div class="grid-item">
-    <img src="/assets/photos/Beaumont_Storm_082024.jpg" alt="Storm rendering in Beaumont">
+  <!-- Bird photo: 1 column -->
+  <div class="grid-item" style="min-height: 400px;">
+    <img src="/assets/photos/brian_stokes_bird.jpg" alt="Photo by Brian Stokes">
   </div>
 
   <!-- Shadow Watch iframe: 3 columns -->
@@ -120,7 +119,7 @@ Please explore this website to learn more about us and our work.
   </div>
 
   <!-- Spanish video -->
-  <div class="grid-item short-video" style="min-height: 160px;">
+  <div class="grid-item short-video" style="min-height: 400px; height: 420px;">
     <iframe
       src="https://www.youtube.com/embed/1x1HDqH8F_A"
       title="FloDisMod video in Spanish"
@@ -129,12 +128,11 @@ Please explore this website to learn more about us and our work.
     </iframe>
   </div>
 
-  <!-- Brian Stokes bird photo: 2 columns -->
+  <!-- Beaumont storm photo: 2 columns -->
   <div class="span-2" style="display: flex; flex-direction: column; gap: 6px;">
-    <div class="grid-item" style="min-height: 160px; flex: 1;">
-      <img src="/assets/photos/brian_stokes_bird.jpg" alt="Photo by Brian Stokes">
+    <div class="grid-item" style="min-height: 400px; height: 420px; flex: none;">
+      <img src="/assets/photos/Beaumont_Storm_082024.jpg" alt="Storm rendering in Beaumont">
     </div>
-    <div style="color: #000; font-size: 0.8rem; padding: 2px 4px;">Photo: Brian Stokes</div>
   </div>
 
   <!-- Eclipse placeholder: full width -->
