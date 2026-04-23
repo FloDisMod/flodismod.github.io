@@ -1,5 +1,5 @@
 ---
-title: 'Professor Clint Dawson is featured in the University of Texas vidso "Solutions of the Future Start Now".'
+title: 'Professor Clint Dawson is featured in the University of Texas video "Solutions of the Future Start Now".'
 categories:
 - Media
 feature_image: "https://flodismod.github.io/assets/cover_photo.png"
