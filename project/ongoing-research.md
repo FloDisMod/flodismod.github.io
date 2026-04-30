@@ -5,6 +5,7 @@ feature_text: |
 
 feature_image: "/assets/cover_photo/pier.png"
 feature_credit: Photo by Dr. Tamer Oraby
+permalink: /ongoing-research/
 
 ---
 
