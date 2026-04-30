@@ -111,8 +111,10 @@ navigation_header:
   url: /groups/
 - title: RESEARCH
   url: /research_page/
-- title: NEWS & OUTREACH
+- title: NEWS
   url: /news/
+- title: OUTREACH
+  url: /outreach/
 - title: ACKNOWLEDGMENTS
   url: /acknowledgments/
 - title: CONTACT
