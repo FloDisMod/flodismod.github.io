@@ -1,7 +1,7 @@
 ---
-title: Ongoing Research
+title: 
 feature_text: |
-  Research
+  Ongoing Research
 
 feature_image: "/assets/cover_photo/pier.png"
 feature_credit: Photo by Dr. Tamer Oraby
