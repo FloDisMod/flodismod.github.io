@@ -20,15 +20,11 @@ To complement this framework, initially, we explicitly focus on *Culex pipiens p
 
 **Figure 1:** Occurrence map of *C. p. pipiens* and *C. p. quinquefasciatus* mosquito species in North America between 2020–2025 (N=4981).
 
-<br>
-
 We separately modeled the habitat suitability of each mosquito species independently using MaxEnt in R and subsequently projected the habitat suitability under multiple climate change scenarios (SSP1, SSP2, SSP3, and SSP5) for the period 2070–2100. The resulting maps (Figure 2) illustrate the projected suitability of *C. p. pipiens* (CPP) and *C. p. quinquefasciatus* (CPQ) mosquitos under SSP1, SSP2, SSP3 and SSP5 scenarios, for the period 2070–2100.
 
 {% include figure.html image="/assets/photos/mosquito_suitability_projections.png" alt="Projected suitability of C. p. pipiens and C. p. quinquefasciatus under SSP1-SSP5 climate scenarios 2070-2100" width="900" %}
 
 **Figure 2:** Projected suitability of *C. p. pipiens* (CPP) and *C. p. quinquefasciatus* (CPQ) mosquitos under SSP1, SSP2, SSP3 and SSP5 scenarios, for the period 2070–2100.
-
-<br>
 
 By integrating these projections with the 2022 county-level Social Vulnerability Index (SVI) across USA (Figure 3), this approach provides foundation and support for climate-informed public health planning through early warning systems, targeted vector surveillance, and adaptive control strategies.
 
@@ -36,6 +32,5 @@ By integrating these projections with the 2022 county-level Social Vulnerability
 
 **Figure 3:** Overlay of *C. p. quinquefasciatus* projection of its habitat suitability under climate change scenario SSP5 (2070–2100) with the Social Vulnerability Index for USA in 2022.
 
-<br>
 
 {% include button.html text="Back to Research" link="/research_page/" %}
