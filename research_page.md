@@ -18,3 +18,5 @@ Our Research focuses on the following five arms:
 
 
 {% include display-research.html%}
+
+{% include publications.html %}

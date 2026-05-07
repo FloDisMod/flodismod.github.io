@@ -1,0 +1,519 @@
+<style>
+.pub-layout {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  margin-top: 1.5rem;
+}
+
+.pub-nav {
+  position: sticky;
+  top: 100px;
+  flex: 0 0 auto;
+  white-space: nowrap;
+  background: #f5f5f5;
+  border-left: 3px solid #bf5700;
+  padding: 0.75rem 1rem;
+  border-radius: 4px;
+  font-family: Helvetica, sans-serif;
+}
+
+.pub-nav strong {
+  display: none;
+}
+
+.back-to-top {
+  display: block;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  background: #bf5700;
+  color: #fff !important;
+  font-family: Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  text-decoration: none !important;
+  background-image: none !important;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.25);
+  border-bottom: none !important;
+  text-shadow: none !important;
+  padding: 0.5rem 0.85rem;
+  border-radius: 4px;
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s;
+  z-index: 999;
+}
+
+.back-to-top.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.pub-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.pub-nav ul li {
+  margin-bottom: 0.4rem;
+}
+
+.pub-nav ul li a,
+.pub-nav ul li a:link,
+.pub-nav ul li a:visited,
+.pub-nav ul li a:hover,
+.pub-nav ul li a:focus,
+.pub-nav ul li a:active {
+  color: #000;
+  text-decoration: none !important;
+  background-image: none !important;
+  background: none !important;
+  box-shadow: none !important;
+  border-bottom: none !important;
+  text-shadow: none !important;
+  outline: none;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.4;
+  display: block;
+  padding: 3px 0;
+}
+
+.pub-nav ul li a.active,
+.pub-nav ul li a.active:link,
+.pub-nav ul li a.active:visited {
+  color: #bf5700 !important;
+  font-weight: bold !important;
+  text-decoration: underline !important;
+  text-underline-offset: 3px;
+}
+
+.pub-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.pub-year-section {
+  margin-bottom: 2rem;
+}
+
+.pub-year-section h3 {
+  font-size: 1.2rem;
+  font-family: Helvetica, sans-serif;
+  color: #333;
+  border-bottom: 2px solid #bf5700;
+  padding-bottom: 0.3rem;
+  margin-bottom: 1rem;
+}
+
+.pub-entry {
+  margin-bottom: 1.1rem;
+  padding-bottom: 1.1rem;
+  border-bottom: 1px solid #eee;
+  font-family: Helvetica, sans-serif;
+}
+
+.pub-entry:last-child {
+  border-bottom: none;
+}
+
+.pub-title {
+  font-size: 14px !important;
+  font-weight: bold;
+  color: #222;
+  margin: 0 0 3px 0 !important;
+  line-height: 1.4 !important;
+  letter-spacing: 0 !important;
+  word-spacing: 0 !important;
+  padding: 0 !important;
+}
+
+.pub-title a,
+.pub-title a:link,
+.pub-title a:visited {
+  color: #bf5700 !important;
+  text-decoration: none !important;
+  background-image: none !important;
+  background: none !important;
+  box-shadow: none !important;
+  border-bottom: none !important;
+  text-shadow: none !important;
+}
+
+.pub-title a:hover {
+  text-decoration: underline !important;
+}
+
+.pub-authors {
+  font-size: 13px !important;
+  color: #555;
+  margin: 0 0 2px 0 !important;
+  line-height: 1.3 !important;
+  letter-spacing: 0 !important;
+  word-spacing: 0 !important;
+  padding: 0 !important;
+}
+
+.pub-source {
+  font-size: 13px !important;
+  color: #777;
+  font-style: italic;
+  margin: 0 !important;
+  line-height: 1.3 !important;
+  letter-spacing: 0 !important;
+  word-spacing: 0 !important;
+  padding: 0 !important;
+}
+
+.pub-source a,
+.pub-source a:link,
+.pub-source a:visited {
+  color: #777 !important;
+  text-decoration: underline !important;
+  background-image: none !important;
+  background: none !important;
+  box-shadow: none !important;
+  border-bottom: none !important;
+  text-shadow: none !important;
+}
+</style>
+
+<hr>
+<h2 id="publications" style="font-family: Helvetica, sans-serif;">Publications</h2>
+
+<div class="pub-layout">
+
+<div class="pub-nav">
+  <strong>By Year</strong>
+  <ul>
+    <li><a href="#pub-2026">2026</a></li>
+    <li><a href="#pub-2025">2025</a></li>
+    <li><a href="#pub-2024">2024</a></li>
+    <li><a href="#pub-2023">2023</a></li>
+    <li><a href="#pub-2022">2022</a></li>
+    <li><a href="#pub-2021">2021</a></li>
+    <li><a href="#pub-2015">2015</a></li>
+  </ul>
+</div>
+
+<div class="pub-content">
+
+  <!-- 2026 -->
+  <div class="pub-year-section">
+    <h3 id="pub-2026">2026</h3>
+
+    <div class="pub-entry">
+      <p class="pub-title"><a href="https://arxiv.org/abs/2603.25978">Global Location-Invariant Peak Storm Surge Prediction</a></p>
+      <p class="pub-authors">Pachev, B., Arora, P., Zhao, J., Valseth, E.</p>
+      <p class="pub-source">arXiv preprint arXiv:2603.25978</p>
+    </div>
+
+    <div class="pub-entry">
+      <p class="pub-title"><a href="https://arxiv.org/abs/2604.20688">Storm Surge Modeling, Bias Correction, Graph Neural Networks, Graph Convolution Networks</a></p>
+      <p class="pub-authors">N. Nader, S. Giaremis, C. Dawson, C. Kaiser, K. Mohammadiporshokooh, et al.</p>
+      <p class="pub-source">arXiv preprint arXiv:2604.20688</p>
+    </div>
+
+    <div class="pub-entry">
+      <p class="pub-title"><a href="https://arxiv.org/abs/2604.06433">Operator Learning for Surrogate Modeling of Wave-Induced Forces from Sea Surface Waves</a></p>
+      <p class="pub-authors">S. Cai, S. Dutta, M. Loveland, E. Valseth, P. Rivera-Casillas, C. Trahan, et al.</p>
+      <p class="pub-source">arXiv preprint arXiv:2604.06433</p>
+    </div>
+
+    <div class="pub-entry">
+      <p class="pub-title">Digital Twins for Coastal Flooding</p>
+      <p class="pub-authors">C. Dawson, A.R. Cerrone, J. Zhao, J.J. Westerink</p>
+      <p class="pub-source">Computing in Science &amp; Engineering</p>
+    </div>
+
+    <div class="pub-entry">
+      <p class="pub-title">Incorporation of Collagen into <em>Pseudomonas aeruginosa</em>, <em>Staphylococcus aureus</em>, and <em>Burkholderia pseudomallei</em> Biofilms Modifies Their Viscoelasticity and Resistance against Phagocytosis</p>
+      <p class="pub-authors">X. Zhou, A.D. McGovern, M.J. Wells, D.B. Verma, H. Currie, A.M. Raka, J. Shen, K.A. Brown, R.M. Robertson-Anderson, V.D. Gordon</p>
+      <p class="pub-source">Langmuir 42, 455–469</p>
+    </div>
+  </div>
+
+  <!-- 2025 -->
+  <div class="pub-year-section">
+    <h3 id="pub-2025">2025</h3>
+
+    <div class="pub-entry">
+      <p class="pub-title"><a href="https://arxiv.org/abs/2508.21208">GPU-acceleration of the Discontinuous Galerkin Shallow Water Equations Solver (DG-SWEM) using CUDA and OpenACC</a></p>
+      <p class="pub-authors">Wichitrnithed, C., Valseth, E., Bunya, S., Kubatko, E.J., Dawson, C.</p>
+      <p class="pub-source">arXiv preprint arXiv:2508.21208</p>
+    </div>
+
+    <div class="pub-entry">
+      <p class="pub-title"><a href="https://arxiv.org/abs/2508.15948">Coupled Continuous-Discontinuous Galerkin Finite Element Solver for Compound Flood Simulations</a></p>
+      <p class="pub-authors">Wichitrnithed, C., Valseth, E., Bunya, S., Kubatko, E.J., Dawson, C.</p>
+      <p class="pub-source">arXiv preprint arXiv:2508.15948</p>
+    </div>
+
+    <div class="pub-entry">
+      <p class="pub-title"><a href="https://arxiv.org/abs/2506.21743">Storm Surge in Color: RGB-Encoded Physics-Aware Deep Learning for Storm Surge Forecasting</a></p>
+      <p class="pub-authors">J. Zhao, A. Cerrone, E. Valseth, L. Westerink, C. Dawson</p>
+      <p class="pub-source">arXiv preprint arXiv:2506.21743</p>
+    </div>
+
+    <div class="pub-entry">
+      <p class="pub-title">Insecticide-treated net use and elimination of malaria in Sub-Saharan African countries: assessing the Global Technical Strategy using an evolutionary game approach</p>
+      <p class="pub-authors">Laxmi, T. Oraby, M.G. Tyshenko, I. Danquah, S. Bhattacharyya</p>
+      <p class="pub-source">BMC Infect Dis. 25(1):1707</p>
+    </div>
+
+    <div class="pub-entry">
+      <p class="pub-title">Tick-Borne Disease Knowledge in the Transboundary USA–Mexico Region</p>
+      <p class="pub-authors">C. Aguilar, T. Oraby, M. Torres-Avila, S.L. René, T.P. Feria-Arroyo</p>
+      <p class="pub-source">Vector Borne Zoonotic Dis. (Online ahead of print)</p>
+    </div>
+
+    <div class="pub-entry">
+      <p class="pub-title">Comparing machine learning, deep learning, and reinforcement learning performance in <em>Culex pipiens</em> predictive modeling</p>
+      <p class="pub-authors">W. Yin, S.H. Ragab, M.G. Tyshenko, T.F. Arroyo, T. Oraby</p>
+      <p class="pub-source">PLoS One 20(11):e0333536</p>
+    </div>
+
+    <div class="pub-entry">
+      <p class="pub-title">Levels of extracellular ATP in growth zones of <em>Arabidopsis</em> primary roots are changed by altered expression of apyrase enzymes</p>
+      <p class="pub-authors">G. Clark, A. Vanegas, A. Cannon, M. Jankovic, R. Huang, K.A. Brown, E. McLamore, S.J. Roux</p>
+      <p class="pub-source">Plant Signal. Behav. 16, 1584871</p>
+    </div>
+
+    <div class="pub-entry">
+      <p class="pub-title"><a href="https://doi.org/10.3389/fpls.2025.1584871">Modified pea apyrase has altered nuclear functions and enhances the growth of yeast and <em>Arabidopsis</em></a></p>
+      <p class="pub-authors">Tripathy M.K., Wang H., Slocum R.D., Jiang H.W., Nam J.C., Sabharwal T., Veerappa R., Brown K.A., Cai X., Faull P.A., Clark G., Roux S.J.</p>
+      <p class="pub-source">Front. Plant Sci. 16:1584871</p>
+    </div>
+  </div>
+
+  <!-- 2024 -->
+  <div class="pub-year-section">
+    <h3 id="pub-2024">2024</h3>
+
+    <div class="pub-entry">
+      <p class="pub-title"><a href="https://arxiv.org/abs/2408.16553">Downscaling Neural Network for Coastal Simulations</a></p>
+      <p class="pub-authors">Liu, S-Z., Büttner, M., Scarborough, M., Valseth, E., Aizinger, V., Kainz, B., Rupp, A.</p>
+      <p class="pub-source">arXiv preprint arXiv:2408.16553</p>
+    </div>
+
+    <div class="pub-entry">
+      <p class="pub-title"><a href="https://doi.org/10.1038/s44304-024-00036-5">A Software Toolbox for Modeling Coastal Ocean Circulation, Storm Surges, Inland, and Compound Flooding</a></p>
+      <p class="pub-authors">Dawson, C., Loveland, M., Pachev, B., Proft, J., Valseth, E.</p>
+      <p class="pub-source">npj Nat. Hazards 1, 44</p>
+    </div>
+
+    <div class="pub-entry">
+      <p class="pub-title">Stochastic games of parental vaccination decision making and bounded rationality</p>
+      <p class="pub-authors">Balogh, A., Oraby, T.</p>
+      <p class="pub-source">Mathematical Biosciences and Engineering, 22(2), 355–388</p>
+    </div>
+
+    <div class="pub-entry">
+      <p class="pub-title">Vaccination games of boundedly rational parents toward new childhood immunization</p>
+      <p class="pub-authors">Yin, W., Ndeffo-Mbah, M., Oraby, T.</p>
+      <p class="pub-source">Infectious Disease Modeling, 11(1)</p>
+    </div>
+
+    <div class="pub-entry">
+      <p class="pub-title">Correcting physics-based global tide and storm water level forecasts with the temporal fusion transformer</p>
+      <p class="pub-authors">A.R. Cerrone, L.G. Westerink, G. Ling, C.P. Blakely, D. Wirasaet, C. Dawson, et al.</p>
+      <p class="pub-source">Ocean Modelling 195, 102509</p>
+    </div>
+
+    <div class="pub-entry">
+      <p class="pub-title">Climate change is projected to shrink phylogenetic endemism of Neotropical frogs</p>
+      <p class="pub-authors">G. Alves-Ferreira, N.M. Heming, D. Talora, T.H. Keitt, M. Solé, K.R. Zamudio</p>
+      <p class="pub-source">Nat. Commun. 16(1):3713</p>
+    </div>
+
+    <div class="pub-entry">
+      <p class="pub-title">A mechanistic statistical approach to infer invasion characteristics of human-dispersed species with complex life cycle</p>
+      <p class="pub-authors">N. Goel, A.M. Liebhold, C. Bertelsmeier, M.B. Hooten, K.S. Korolev, T.H. Keitt</p>
+      <p class="pub-source">Ecol. Monogr. 95(1):e70003</p>
+    </div>
+
+    <div class="pub-entry">
+      <p class="pub-title">Opportunities and challenges for monitoring terrestrial biodiversity in the robotics age</p>
+      <p class="pub-authors">S. Pringle, et al.</p>
+      <p class="pub-source">Nat. Ecol. Evol. 9(6):1031–1042</p>
+    </div>
+
+    <div class="pub-entry">
+      <p class="pub-title">Semiautomated generation of species-specific training data from large, unlabeled acoustic datasets for deep supervised birdsong isolation</p>
+      <p class="pub-authors">J. Sasek, B. Allison, A. Contina, D. Knobles, P. Wilson, T. Keitt</p>
+      <p class="pub-source">PeerJ 12:e17854</p>
+    </div>
+
+    <div class="pub-entry">
+      <p class="pub-title">BioSense: An Automated Sensing Node for Organismal and Environmental Biology</p>
+      <p class="pub-authors">A. Contina, E. Abelson, B. Allison, B. Stokes, K.F. Sanchez, H.M. Hernandez, A.M. Kepple, Q. Tran, I. Kazen, K.A. Brown, J.H. Powell, T.H. Keitt</p>
+      <p class="pub-source">HardwareX 20, e00585</p>
+    </div>
+
+    <div class="pub-entry">
+      <p class="pub-title">An Intergeneric Hybrid Between Historically Isolated Temperate and Tropical Jays Following Recent Range Expansion</p>
+      <p class="pub-authors">B.R. Stokes, T.H. Keitt</p>
+      <p class="pub-source">Ecol. Evol. 15(9):e72148</p>
+    </div>
+
+    <div class="pub-entry">
+      <p class="pub-title">Optimizing third party funding to alleviate global drug resistance: A game-theoretic modelling approach</p>
+      <p class="pub-authors">Malik, B., Oraby, T.F., Tyshenko, M.G., Bhattacharyya, S.</p>
+      <p class="pub-source">International Journal of Biomathematics</p>
+    </div>
+
+    <div class="pub-entry">
+      <p class="pub-title">Functional data learning using convolutional neural networks</p>
+      <p class="pub-authors">Galarza, J., Oraby, T.F.</p>
+      <p class="pub-source">Machine Learning: Science and Technology, 5(1)</p>
+    </div>
+
+    <div class="pub-entry">
+      <p class="pub-title">Modeling the effect of observational social learning on parental decision-making for childhood vaccination and diseases spread over household networks</p>
+      <p class="pub-authors">Oraby, T.F., Balogh, A.</p>
+      <p class="pub-source">Front. Epidemiol., Sec. Infectious Disease Epidemiology, 3</p>
+    </div>
+  </div>
+
+  <!-- 2023 -->
+  <div class="pub-year-section">
+    <h3 id="pub-2023">2023</h3>
+
+    <div class="pub-entry">
+      <p class="pub-title">A framework for flexible peak storm surge prediction</p>
+      <p class="pub-authors">B. Pachev, P. Arora, C. del-Castillo-Negrete, E. Valseth, C. Dawson</p>
+      <p class="pub-source">Coastal Engineering 186, 104406</p>
+    </div>
+
+    <div class="pub-entry">
+      <p class="pub-title">The accumulation and growth of <em>Pseudomonas aeruginosa</em> on surfaces is modulated by surface mechanics via cyclic-di-GMP signaling</p>
+      <p class="pub-authors">L. Wang, Y-C. Wong, J.M. Correira, M. Wancura, C.J. Geiger, S.S. Webster, A. Touhami, B.J. Butler, G.A. O'Toole, R.M. Langford, K.A. Brown, B. Dortdivanlioglu, L. Webb, E. Cosgriff-Hernandez, V.D. Gordon</p>
+      <p class="pub-source">NPJ Biofilms Microbiomes 9, 78</p>
+    </div>
+
+    <div class="pub-entry">
+      <p class="pub-title">Predicting the Impact of Climate Change on the Distribution of <em>Rhipicephalus sanguineus</em> in the Americas</p>
+      <p class="pub-authors">M. Sánchez Pérez, T.P. Feria Arroyo, C. Sadiel Venegas Barrera, C. Sosa-Gutiérrez, J. Torres, K.A. Brown, G. Gordillo Pérez</p>
+      <p class="pub-source">Sustainability 15, 1–12</p>
+    </div>
+
+    <div class="pub-entry">
+      <p class="pub-title">Adjusting for Berkson error in exposure in ordinary and conditional logistic regression and in Poisson regression</p>
+      <p class="pub-authors">T. Oraby, S. Chakraborty, S. Sivaganesan, L. Kincl, L. Richardson, M. McBride, J. Siemiatycki, E. Cardis, D. Krewski</p>
+      <p class="pub-source">BMC Med. Res. Methodol. 23(1):225</p>
+    </div>
+  </div>
+
+  <!-- 2022 -->
+  <div class="pub-year-section">
+    <h3 id="pub-2022">2022</h3>
+
+    <div class="pub-entry">
+      <p class="pub-title">Modeling the Impact of Climate Change on Cervid Chronic Wasting Disease in Semi-Arid South Texas</p>
+      <p class="pub-authors">M.R. Islam, U. Bulut, T.P. Feria-Arroyo, M.G. Tyshenko, T. Oraby</p>
+      <p class="pub-source">Front. Epidemiol. 2:889280</p>
+    </div>
+  </div>
+
+  <!-- 2021 -->
+  <div class="pub-year-section">
+    <h3 id="pub-2021">2021</h3>
+
+    <div class="pub-entry">
+      <p class="pub-title">Ecology in the age of automation</p>
+      <p class="pub-authors">T.H. Keitt, E.S. Abelson</p>
+      <p class="pub-source">Science 373(6557):858–859</p>
+    </div>
+
+    <div class="pub-entry">
+      <p class="pub-title"><a href="https://www.nature.com/articles/s41598-021-82873-2">Modeling the effect of lockdown timing as a COVID-19 control measure in countries with differing social contacts</a></p>
+      <p class="pub-authors">Oraby, T.F., Tyshenko, M.G., Campo Maldonado, J., Vatcheva, K.</p>
+      <p class="pub-source">Sci. Rep. 11, 3354</p>
+    </div>
+
+    <div class="pub-entry">
+      <p class="pub-title">Evaluation of the United States COVID-19 Vaccine Allocation Strategy</p>
+      <p class="pub-authors">Islam, M.R., Oraby, T., McCombs, A., Chowdhury, M.M., Al-Mamun, M.</p>
+      <p class="pub-source">PLOS One, 16(11), e0259700</p>
+    </div>
+
+    <div class="pub-entry">
+      <p class="pub-title">Mitigating the externality of diseases of poverty through health aid</p>
+      <p class="pub-authors">Jnawali, K., Tyshenko, M.G., Oraby, T.F.</p>
+      <p class="pub-source">Royal Society Open Science, 8(10), 211450</p>
+    </div>
+
+    <div class="pub-entry">
+      <p class="pub-title">Skin models for cutaneous melioidosis reveal <em>Burkholderia</em> infection dynamics at wound's edge with inflammasome activation, keratinocyte extrusion and epidermal detachment</p>
+      <p class="pub-authors">J.W.K. Ku, S.T. Marsh, M.H. Nai, K.S. Robinson, D.T.E. Thiam, F.L. Zhong, K.A. Brown, T.C. Lim, C.T. Lim, Y.-H. Gan</p>
+      <p class="pub-source">Emerg. Microbes Infect. 10, 2326–2339</p>
+    </div>
+
+    <div class="pub-entry">
+      <p class="pub-title"><a href="https://doi.org/10.3390/ijms22063283">Recent Advances Clarifying the Structure and Function of Plant Apyrases (Nucleoside Triphosphate Diphosphohydrolases)</a></p>
+      <p class="pub-authors">Clark G., Brown K.A., Tripathy M.K., Roux S.J.</p>
+      <p class="pub-source">Int. J. Mol. Sci. 22(6):3283</p>
+    </div>
+  </div>
+
+  <!-- 2015 -->
+  <div class="pub-year-section">
+    <h3 id="pub-2015">2015</h3>
+
+    <div class="pub-entry">
+      <p class="pub-title">Melioidosis Diagnostic Workshop, 2013: Diagnostic Gaps in Endemic and Non-endemic Areas</p>
+      <p class="pub-authors">A.R. Hoffmaster, et al.</p>
+      <p class="pub-source">J. Emerg. Infect. Dis. 21, 141045</p>
+    </div>
+  </div>
+
+</div><!-- .pub-content -->
+</div><!-- .pub-layout -->
+
+<a class="back-to-top" id="pub-back-to-top" href="#">↑ Back to top</a>
+
+<script>
+(function() {
+  var pubSections = document.querySelectorAll('.pub-year-section h3[id]');
+  var pubNavLinks = document.querySelectorAll('.pub-nav a');
+
+  // Smooth scroll on click
+  pubNavLinks.forEach(function(link) {
+    link.addEventListener('click', function(e) {
+      e.preventDefault();
+      var target = document.querySelector(this.getAttribute('href'));
+      if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+  });
+
+  // Highlight active year on scroll
+  var pubObserver = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+      if (entry.isIntersecting) {
+        pubNavLinks.forEach(function(link) { link.classList.remove('active'); });
+        var active = document.querySelector('.pub-nav a[href="#' + entry.target.id + '"]');
+        if (active) active.classList.add('active');
+      }
+    });
+  }, { rootMargin: '0px 0px -60% 0px', threshold: 0 });
+
+  pubSections.forEach(function(section) { pubObserver.observe(section); });
+
+  // Back to top button
+  var backBtn = document.getElementById('pub-back-to-top');
+  window.addEventListener('scroll', function() {
+    if (window.scrollY > 400) {
+      backBtn.classList.add('visible');
+    } else {
+      backBtn.classList.remove('visible');
+    }
+  });
+  backBtn.addEventListener('click', function(e) {
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+})();
+</script>

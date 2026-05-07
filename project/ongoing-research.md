@@ -58,9 +58,11 @@ strip_title: true
 .onpage-nav ul li a:active {
   color: #000;
   text-decoration: none !important;
+  background-image: none !important;
   background: none !important;
   box-shadow: none !important;
   border-bottom: none !important;
+  text-shadow: none !important;
   outline: none;
   font-size: 14px;
   font-weight: normal;
