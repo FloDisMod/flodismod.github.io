@@ -27,7 +27,7 @@ Please explore this website to learn more about us and our work.
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 16px;
-    margin-top: 1.5rem;
+    margin-top: 8px;
   }
 
   .grid-item {
@@ -62,16 +62,15 @@ Please explore this website to learn more about us and our work.
     min-height: unset;
   }
 
-  .caption {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    padding: 0.75rem 1rem;
-    background: linear-gradient(to top, rgba(0,0,0,0.72), rgba(0,0,0,0));
-    color: #fff;
-    font-size: 0.95rem;
+  .grid-label {
+    font-family: Helvetica, sans-serif;
+    font-size: 13px;
+    color: #444;
+    margin: 2px 0 2px 0 !important;
+    padding: 6pt 10px;
     line-height: 1.3;
+    background-color: #f0f0f0;
+    border-radius: 8px;
   }
 
   @media (max-width: 900px) {
@@ -99,45 +98,61 @@ Please explore this website to learn more about us and our work.
 <div class="featured-grid">
 
   <!-- Clint interview video: 2 columns -->
-  <div class="grid-item span-2" style="min-height: 400px;">
-    {% include video_0409.html title="Interview with Dr. Clint Dawson" %}
+  <div class="span-2" style="display: flex; flex-direction: column;">
+    <div class="grid-item" style="min-height: 400px; flex: 1;">
+      {% include video_0409.html title="Interview with Dr. Clint Dawson" %}
+    </div>
+    <p class="grid-label">Dr. Clint Dawson | 2024 UT Austin President's Research Impact Award</p>
   </div>
 
   <!-- Bird photo: 1 column -->
-  <div class="grid-item" style="min-height: 400px;">
-    <img src="/assets/photos/brian_stokes_bird.jpg" alt="Photo by Brian Stokes">
+  <div style="display: flex; flex-direction: column;">
+    <div class="grid-item" style="min-height: 400px; flex: 1;">
+      <img src="/assets/photos/brian_stokes_bird.jpg" alt="Photo by Brian Stokes">
+    </div>
+    <p class="grid-label">The Grue Jay: A Climate-Driven Hybrid Species | Photo: Brian Stokes</p>
   </div>
 
   <!-- Shadow Watch iframe: 3 columns -->
-  <div class="grid-item span-3" style="min-height: 500px;">
-    <iframe
-      src="https://chl.crc.nd.edu/interactive-viewer"
-      title="Shadow Watch Interactive Viewer"
-      loading="lazy"
-      referrerpolicy="strict-origin-when-cross-origin">
-    </iframe>
+  <div class="span-3" style="display: flex; flex-direction: column;">
+    <div class="grid-item" style="min-height: 500px; flex: 1;">
+      <iframe
+        src="https://chl.crc.nd.edu/interactive-viewer"
+        title="Shadow Watch Interactive Viewer"
+        loading="lazy"
+        referrerpolicy="strict-origin-when-cross-origin">
+      </iframe>
+    </div>
+    <p class="grid-label">ShadowWatch: Visualization Portal for NOAA's Operational Global Storm Surge and Tide Forecasting System</p>
   </div>
 
   <!-- Spanish video -->
-  <div class="grid-item short-video" style="min-height: 400px; height: 420px;">
-    <iframe
-      src="https://www.youtube.com/embed/1x1HDqH8F_A"
-      title="FloDisMod video in Spanish"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      allowfullscreen>
-    </iframe>
+  <div style="display: flex; flex-direction: column;">
+    <div class="grid-item short-video" style="min-height: 400px; height: 420px; flex: none;">
+      <iframe
+        src="https://www.youtube.com/embed/1x1HDqH8F_A"
+        title="FloDisMod video in Spanish"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+      </iframe>
+    </div>
+    <p class="grid-label">First Step Against Vectors | FloDisMod Vector-Borne Disease Awareness</p>
   </div>
 
   <!-- Beaumont storm photo: 2 columns -->
-  <div class="span-2" style="display: flex; flex-direction: column; gap: 6px;">
+  <div class="span-2" style="display: flex; flex-direction: column;">
     <div class="grid-item" style="min-height: 400px; height: 420px; flex: none;">
       <img src="/assets/photos/Beaumont_Storm_082024.jpg" alt="Storm rendering in Beaumont">
     </div>
+    <p class="grid-label">Compound Flood Modeling: Hurricane Harvey | Beaumont, TX | Image: Madison Russ</p>
   </div>
 
-  <!-- Eclipse placeholder: full width -->
-  <div class="grid-item span-3">
-    <img src="/assets/photos/eclipse_still_harvey.jpg" alt="Eclipse event placeholder">
+  <!-- Eclipse: full width -->
+  <div class="span-3" style="display: flex; flex-direction: column;">
+    <div class="grid-item" style="flex: 1;">
+      <img src="/assets/photos/eclipse_still_harvey.jpg" alt="Eclipse event placeholder">
+    </div>
+    <p class="grid-label">Eclipse Outreach: From COASTLINE to INLINE | Oden Institute, UT Austin | Credit: Madison Russ</p>
   </div>
 
 </div>

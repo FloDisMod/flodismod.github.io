@@ -8,6 +8,23 @@ feature_credit: Photo by Dr. Tamer Oraby
 
 ---
 <br />
+
+<div style="display: flex; flex-direction: column; align-items: center;">
+  <div style="width: 840px; max-width: 100%;">
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe src="https://www.youtube.com/embed/A5MptxF9xpw?si=SDLAkS3a_UlqrRpR"
+        title="Dr. Clint Dawson on Storm Surge Modeling"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+      </iframe>
+    </div>
+    <p style="font-family: Helvetica, sans-serif; font-size: 13px; color: #555; margin-top: 0.4rem;"><em>Dr. Clint Dawson discusses the group's research on data-driven storm surge modeling, recognized with the 2024 University of Texas at Austin President's Research Impact Award.</em></p>
+  </div>
+</div>
+
 When a tropical storm or hurricane approaches a coastline, the strong winds blowing over the ocean’s surface push water towards the shore, resulting in storm surge—a sudden and abnormal rise in sea level.
 
 Storm surge is especially dangerous because it can cause widespread flooding, destruction of infrastructure, significant economic damage, and loss of life. As in any natural hazard scenario, the safety of a community is directly tied to the ability of forecasters to successfully predict the location and timing of storm surge and respond. Accurate modeling is invaluable in the planning processes both far out and near the time of a severe storm event [1].
