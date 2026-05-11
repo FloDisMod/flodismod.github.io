@@ -10,6 +10,7 @@ permalink: /project/mosquito-borne-diseases/
 ---
 
 <b>West Nile Virus Overview</b>
+
 West Nile virus (WNV) is a mosquito-borne virus in the Flavivirus genus of the Flaviviridae family. It is naturally transmitted between mosquitoes and birds, but humans, horses, and other animals can also contract it. Most infections in humans are asymptomatic, but some develop West Nile fever, a mild illness with fever and fatigue. In rare instances, less than 1% of cases, the virus can cause severe neurological issues like meningitis or encephalitis.
 History and Global Spread
 WNV was initially discovered in 1937 in the West Nile area of Uganda. Over the years, it spread throughout Africa, the Middle East, and Europe. In 1999, the virus was detected in the United States for the first time, starting an outbreak in New York City. It quickly spread, becoming endemic across North America.
