@@ -64,11 +64,14 @@ Please explore this website to learn more about us and our work.
 
   .grid-label {
     font-family: Helvetica, sans-serif;
-    font-size: 13px;
+    font-size: 13px !important;
     color: #444;
     margin: 2px 0 2px 0 !important;
-    padding: 6pt 10px;
-    line-height: 1.3;
+    padding: 6pt 10px !important;
+    line-height: 1.15 !important;
+    letter-spacing: 0 !important;
+    word-spacing: 0 !important;
+    text-align: left !important;
     background-color: #f0f0f0;
     border-radius: 8px;
   }
@@ -141,7 +144,7 @@ Please explore this website to learn more about us and our work.
 
   <!-- Beaumont storm photo: 2 columns -->
   <div class="span-2" style="display: flex; flex-direction: column;">
-    <div class="grid-item" style="min-height: 400px; height: 420px; flex: none;">
+    <div class="grid-item" style="min-height: 400px; flex: 1;">
       <img src="/assets/photos/Beaumont_Storm_082024.jpg" alt="Storm rendering in Beaumont">
     </div>
     <p class="grid-label">Compound Flood Modeling: Hurricane Harvey | Beaumont, TX | Image: Madison Russ</p>
