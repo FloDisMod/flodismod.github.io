@@ -91,12 +91,19 @@ strip_title: true
 <div class="onpage-nav">
   <strong>On this page</strong>
   <ul>
+    <li><a href="#mas">MAS</a></li>
     <li><a href="#west-nile-virus">West Nile Virus</a></li>
     <li><a href="#chagas-disease">Chagas Disease</a></li>
   </ul>
 </div>
 
 <div class="onpage-content">
+
+<h2 id="mas" style="text-align: left !important; word-spacing: normal !important; letter-spacing: normal !important;">FloDisMod Multi-Agent System (MAS) Architecture</h2>
+
+{% include mas-diagram.html %}
+
+<br><hr><br>
 
 <h2 id="west-nile-virus">Forecasting of Climate-Sensitive Mosquito Distributions to Evaluate Vector-Borne Disease Risk</h2>
 
